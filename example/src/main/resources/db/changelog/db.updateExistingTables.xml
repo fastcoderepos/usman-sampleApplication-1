@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+         
+		  <changeSet author="fastCode, Inc" id="000000-000100">
+	    <addColumn tableName="CATEGORY">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000101">
+	    <addColumn tableName="FILM_ACTOR">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000102">
+	    <addColumn tableName="ADDRESS">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000103">
+	    <addColumn tableName="CUSTOMER">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000104">
+	    <addColumn tableName="FILM">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000105">
+	    <addColumn tableName="STAFF">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000106">
+	    <addColumn tableName="STORE">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000107">
+	    <addColumn tableName="CITY">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000108">
+	    <addColumn tableName="PAYMENT">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000109">
+	    <addColumn tableName="RENTAL">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000110">
+	    <addColumn tableName="LANGUAGE">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000111">
+	    <addColumn tableName="ACTOR">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000112">
+	    <addColumn tableName="COUNTRY">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000113">
+	    <addColumn tableName="INVENTORY">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000114">
+	    <addColumn tableName="FILM_CATEGORY">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+         
+</databaseChangeLog>
